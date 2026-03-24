@@ -14,7 +14,6 @@ int main(int argc, char *argv[]) {
         printf("Options:\n");
         printf("\t--help\t   Show this help message\n");
         printf("\t--version  Show version information\n");
-        return 0;
     } else {
         for (i = 1; i < argc; i++) {
             printf("Hello, %s!\n", argv[i]);
