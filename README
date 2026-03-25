@@ -80,7 +80,6 @@ $ ./hello "De Rossi"
 Hello, De Rossi!
 ```
 
-// Traduci la sezione di testo sottostante in inglese
 This command-line tool is almost certainly capable of withstanding any stressful usage by users, as it has successfully passed the "$party" test (See the file: ./tests/test_hello.sh for more information).
 
 Michele Mario Benedic
