@@ -140,11 +140,11 @@ Hello, De Rossi!
 
 **Checklist strumenti**:
 
-- [ ] Compilazione con: `gcc -Wall -Wextra -o hello src/main.c`
-- [ ] Generazione ASM con: `gcc -S -masm=intel src/main.c -o asm/hello.s`
-- [ ] `git init` eseguito nella root del progetto
-- [ ] Almeno 3 commit significativi durante lo sviluppo (non un unico commit finale)
-- [ ] Repository pushato su GitHub con README visibile
+- [✅] Compilazione con: `gcc -Wall -Wextra -o hello src/main.c`
+- [✅] Generazione ASM con: `gcc -S -masm=intel src/main.c -o asm/hello.s`
+- [✅] `git init` eseguito nella root del progetto
+- [✅] Almeno 3 commit significativi durante lo sviluppo (non un unico commit finale)
+- [✅] Repository pushato su GitHub con README visibile
 
 ---
 
@@ -152,14 +152,14 @@ Hello, De Rossi!
 
 Il progetto è completo quando tutti i seguenti punti sono soddisfatti:
 
-- [ ] Tutti i requisiti funzionali sono implementati
-- [ ] Il programma compila senza warning con `gcc -Wall -Wextra -Werror -pedantic`
-- [ ] I test automatizzati (script bash) passano tutti
+- [✅] Tutti i requisiti funzionali sono implementati
+- [✅] Il programma compila senza warning con `gcc -Wall -Wextra -Werror -pedantic`
+- [✅] I test automatizzati (script bash) passano tutti
 - [ ] L'esercizio ASM è completo: file `.s` generato e `asm_notes.md` compilato con risposte alle 5 domande
-- [ ] I comandi `git init`, `git add`, `git commit` sono stati usati nel workflow
-- [ ] Il repository è su GitHub come repo pubblico
+- [✅] I comandi `git init`, `git add`, `git commit` sono stati usati nel workflow
+- [✅] Il repository è su GitHub come repo pubblico
 - [ ] Il README è completo (descrizione, build, uso, limiti)
-- [ ] Il `Makefile` ha almeno i target `all`, `clean`, e `asm`
+- [✅] Il `Makefile` ha almeno i target `all`, `clean`, e `asm`
 
 ---
 
@@ -192,10 +192,17 @@ Il progetto è completo quando tutti i seguenti punti sono soddisfatti:
 
 Compila questa sezione durante la settimana. Serve come log personale e come materiale per la self-review finale.
 
-**Giorno 1**: ...
-**Giorno 2**: ...
-**Giorno 3**: ...
-**Retrospettiva**: cosa ha funzionato, cosa no, cosa faresti diversamente.
+**Giorno 1**: Compreso il metodo di utilizzo degli parametri int argc, char *argv[].
+**Giorno 2**: Completamento Makefile e realizzazione primo test automatico, questa sessione ha reso meno vago nella mia testa il concetto di "software testing"
+**Giorno 3**: Stilata prima versione del README ufficiale di questo deposito e della sua versione in italiano, individuata la modalità con cui fare uno stress test al mio programma tramite script shell.
+
+**Retrospettiva**:
+
+- COSA HA FUNZIONATO?
+- COSA NON HA FUNZIONATO?
+  Le ricerche su internet per ottenre info a me utili non sono quasi mai andate a buon fine portandomi a dovermi affidare agli llm
+- COSA FAREI DIVERSAMENTE?
+  Devo assolutamente cambiare il metodo con cui ricavare info da internet e dalle documentazioni online
 
 ---
 

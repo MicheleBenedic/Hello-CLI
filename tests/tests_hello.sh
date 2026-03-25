@@ -9,12 +9,14 @@ friends="Hello, Mario!
 Hello, Luigi!
 Hello, Peach!"
 surname="Hello, De Rossi!"
+party=""
 exit='0'
 version="HELLO-CLI program in C, Version: 1.0.0"
 
 output_world=$(./hello)
 output_mario=$(./hello Mario)
 output_friends=$(./hello Mario Luigi Peach)
+output_party=$(./hello $(seq -f "name%g" 1 100) > /dev/null)
 output_help=$(./hello --help > /dev/null) 
 output_exit=$(echo $?)
 output_surname=$(./hello "De Rossi")
@@ -37,6 +39,12 @@ if [[ "$output_friends" == "$friends" ]]; then
     echo "Hello Friends Test passed"
 else
     echo "Test 2 failed: expected $friends, got '$output_friends'"
+fi
+
+if [[ "$output_party" == "$party" ]]; then
+    echo "Info Test passed"
+else
+    echo "Test 3 failed: expected $party, got '$output_party'"
 fi
 
 if [[ "$output_exit" == "$exit" ]]; then
