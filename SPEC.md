@@ -155,10 +155,10 @@ Il progetto è completo quando tutti i seguenti punti sono soddisfatti:
 - [✅] Tutti i requisiti funzionali sono implementati
 - [✅] Il programma compila senza warning con `gcc -Wall -Wextra -Werror -pedantic`
 - [✅] I test automatizzati (script bash) passano tutti
-- [ ] L'esercizio ASM è completo: file `.s` generato e `asm_notes.md` compilato con risposte alle 5 domande
+- [✅] L'esercizio ASM è completo: file `.s` generato e `asm_notes.md` compilato con risposte alle 5 domande
 - [✅] I comandi `git init`, `git add`, `git commit` sono stati usati nel workflow
 - [✅] Il repository è su GitHub come repo pubblico
-- [ ] Il README è completo (descrizione, build, uso, limiti)
+- [✅] Il README è completo (descrizione, build, uso, limiti)
 - [✅] Il `Makefile` ha almeno i target `all`, `clean`, e `asm`
 
 ---
